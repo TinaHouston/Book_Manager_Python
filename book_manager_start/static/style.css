@@ -1,0 +1,61 @@
+body {
+    font-family: "Helvetica", arial, sans-serif; font-size: 20px;
+    background-color: rgb(60, 177, 167);
+}
+
+.books {
+    border: 10px solid greenyellow;
+    border-radius: 25px;
+    width: 250px;
+    min-height: 70px;
+    padding: 10px;
+    display: flex;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+.menu{
+    display: flex;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(250, 250, 250);
+    color: white;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li{
+    padding-right: 10px;
+    list-style: none;
+    color: white;
+}
+
+input, select, button {
+    font-size: 70%;
+    width : 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.buttons a {
+    width: 40px;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 0.9em;
+    color: #afabab;
+}
